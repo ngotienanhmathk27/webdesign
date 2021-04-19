@@ -1,0 +1,26 @@
+body{
+   background-color: bisque; 
+}
+
+.kieu3{
+    color: blue;
+}
+
+.kieu32{
+    /* can giua */
+    text-align: center;
+    /* co chu */
+    font-size: larger;
+    /* dam nhat cua chu */
+    font-weight: 900;
+
+    background-color: rgba(255, 255, 255, 0.404);
+}
+
+#kieu4{
+    padding: 20%;
+}
+
+.redcolor{
+    color: red;
+}
