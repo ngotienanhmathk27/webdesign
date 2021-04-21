@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: rgb(27, 150, 82);
+    height: 150px;
+    text-align: center;
+}
+header h1{
+    text-transform: uppercase;
+    color: orangered;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+header nav a{
+    text-decoration: none;
+    padding: 8px 35px;
+    background-color: rgba(255, 255, 255, 0.651);
+    border-radius: 5px;
+    color: green;
+    margin: 0px 30px;
+}
+
+header nav .active{
+    background-color: rgba(197, 211, 67, 1);
+    color: orangered;
+}
+
+.top{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.top a img{
+    width: 150px;
+    height: 150px;
+}
+
+.bottom{
+    font-family: sans-serif;
+}
+
+.bottom h2{
+    color: rgb(27, 150, 82);
+}
+
+#team{
+    float: left;
+    display: none;
+}
+#myform{
+    float: right;
+    background-color: yellow;
+    width: 33%;
+    display: none;
+}
+#myform caption{
+    display: inline-block;
+    margin: 0 0 0 50px;
+}
+
+#team tr th{
+    background-color: orangered;
+}
+#team tr td{
+    background-color: orange;
+}
+#showmore{
+    color: blue;
+}
