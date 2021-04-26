@@ -1,0 +1,76 @@
+.bg-dark {
+  background-color: rgba(48, 43, 43, 0.897);
+}
+.text-yellow {
+  color: yellow;
+}
+.bg-footer {
+  background-color: gray;
+}
+.text-light {
+  color: white;
+}
+.button-center {
+  text-align: center;
+  /* margin: auto; */
+
+  margin: 20px;
+}
+/* 
+.footer{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.footer {
+  border-top: 2px solid yellow;
+}
+.social-footer {
+  padding: 20px 0;
+}
+.info-footer {
+  padding: 20px 0;
+}
+
+.inrow {
+  display: flex;
+}
+
+.inrow h2 {
+  font-size: medium;
+}
+
+.monankhaivi {
+  padding: 20px 0;
+}
+
+.img-responsive {
+  width: 250px;
+  height: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+  .inrow {
+    display: block;
+  }
+}
+
+table,
+td,
+th {
+  border: 1px solid white;
+}
+
+th{
+    color: yellow;
+}
+td{
+    color: white;
+}
+
+.bang{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    display: none;
+}
